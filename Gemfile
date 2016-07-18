@@ -21,3 +21,15 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
+gem 'foundation-rails'
+
+group :development, :test do
+  gem 'launchy'
+  gem 'factory_girl'
+  gem 'shoulda-matchers', require: false
+end
+
+group :test do
+  gem 'coveralls', require: false
+end

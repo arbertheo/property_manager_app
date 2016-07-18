@@ -12,6 +12,14 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/coverage/
+.env
+/public/uploads
+.DS_Store
+npm-debug.log
+/node_modules
+/app/assets/javascripts/bundle.js
+/react/coverage
 
 # Ignore Byebug command history file.
 .byebug_history
